@@ -7,15 +7,20 @@
 }
 
 body {
-  background-image: url('https://img.freepik.com/premium-vector/list_96961-70.jpg');
-  color: #444;
+  background-image: url('your-image-url.jpg'); /* Replace with the path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  color: #444; /* Keeps the text readable */
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  margin: 0;
 }
+
 
 h1 {
   color: #ffffff;
